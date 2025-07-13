@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+#malla {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.curso {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border: 1px solid #00796b;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.curso:hover {
+  transform: scale(1.05);
+  background-color: #b2ebf2;
+}
